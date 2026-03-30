@@ -1,0 +1,16 @@
+[project]
+name = "ctkpdfviewer"
+version = "0.1.0"
+description = "A PDF viewer for customtkinter"
+readme = "README.md"
+authors = [{name = "Akascape"}]
+requires-python = ">=3.8" #Put your desired python version here.
+dependencies = [
+    "customtkinter", #Installs the latest versions for dependencies put your desired versions if so.
+    "pillow",
+    "PyMuPDF"
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
